@@ -37,7 +37,7 @@ app.post('/upload', upload.single('file'), (req, res) => {
 
 
 app.get('/', (req, res) => {
-    res.send('Trần Thành Nam Đần')
+    res.send('Trần Thành Nam cà dốt')
 })
 
 app.listen(port, () => {
